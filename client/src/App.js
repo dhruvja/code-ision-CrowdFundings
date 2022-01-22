@@ -172,12 +172,12 @@ class App extends Component {
             <div className="App">
                 <Router>
                     <Switch>
-                        <Route path="/register" component={Register} />
                         <Route path="/investments" component={Investments} />
                         <Route path="/payment" component={Payment} />
                         <Route path="/login" component={Login} />
                         <Route path="/projects" component={Projects} />
                         <Route path="/hostproject" component={HostProject} />
+                        <Route path="/" component={Register} />
                     </Switch>
                 </Router>
             </div>

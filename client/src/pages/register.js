@@ -44,6 +44,7 @@ function Register() {
     }
 
     const handleSubmit = (e) => {
+        setRedirect(true)
         fetch('http://localhost:5000/api/register',{
             method: "POST",
             headers: {
